@@ -1,3 +1,3 @@
 export default function page() {
-    return <p>Invoces Page</p>
+  return <p>Invoces Page</p>;
 }

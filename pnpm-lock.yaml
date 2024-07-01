@@ -64,8 +64,8 @@ importers:
         specifier: ^18.3.3
         version: 18.3.3
       '@types/react-dom':
-        specifier: 18.2.14
-        version: 18.2.14
+        specifier: ^18.3.0
+        version: 18.3.0
       '@vercel/style-guide':
         specifier: ^5.0.1
         version: 5.2.0(eslint@8.57.0)(prettier@3.3.0)(typescript@5.2.2)
@@ -87,9 +87,6 @@ importers:
       prettier-plugin-tailwindcss:
         specifier: 0.5.4
         version: 0.5.4(prettier@3.3.0)
-      react:18.3.3:
-        specifier: link:@types/react:18.3.3
-        version: link:@types/react:18.3.3
 
 packages:
 
@@ -519,8 +516,8 @@ packages:
   '@types/prop-types@15.7.12':
     resolution: {integrity: sha512-5zvhXYtRNRluoE/jAp4GVsSduVUzNWKkOZrCDBWYtE7biZywwdC2AcEzg+cSMLFRfVgeAFqpfNabiPjxFddV1Q==}
 
-  '@types/react-dom@18.2.14':
-    resolution: {integrity: sha512-V835xgdSVmyQmI1KLV2BEIUgqEuinxp9O4G6g3FqO/SqLac049E53aysv0oEFD2kHfejeKU+ZqL2bcFWj9gLAQ==}
+  '@types/react-dom@18.3.0':
+    resolution: {integrity: sha512-EhwApuTmMBmXuFOikhQLIBUn6uFg81SwLMOAUgodJF14SOBOCMdU04gDoYi0WOJJHD144TL32z4yDqCW3dnkQg==}
 
   '@types/react@18.3.3':
     resolution: {integrity: sha512-hti/R0pS0q1/xx+TsI73XIqk26eBsISZ2R0wUijXIngRK9R/e7Xw/cXVxQK7R5JjW+SV4zGcn5hXjudkN/pLIw==}
@@ -3016,7 +3013,7 @@ snapshots:
 
   '@types/prop-types@15.7.12': {}
 
-  '@types/react-dom@18.2.14':
+  '@types/react-dom@18.3.0':
     dependencies:
       '@types/react': 18.3.3
 
